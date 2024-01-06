@@ -23,7 +23,7 @@ function exampleButton() {
 	var jailId = document.getElementById('enterid').value;
 
 	clearAllFields();
-	$.post("https://fixter-jail/jailNuiCallback", JSON.stringify({
+	$.post("https://CRP_Jail/jailNuiCallback", JSON.stringify({
 		time: jailtime,
 		reason: jailreason,
 		id: jailId
@@ -49,7 +49,7 @@ function closeUI() {
 	$("#idErrorPage").css('display', "none");
 
 	clearAllFields();
-	$.post('https://fixter-jail/closeUI', JSON.stringify({}));
+	$.post('https://CRP_JailV2/closeUI', JSON.stringify({}));
 }
 
 function clearAllFields() {
