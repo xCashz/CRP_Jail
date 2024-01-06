@@ -14,4 +14,4 @@ files {
 	"config.json"
 }
 
-max_jail_time "600" -- 10 minutes
+max_jail_time "1200" -- 10 minutes
