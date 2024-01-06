@@ -1,5 +1,5 @@
 {
-  "jailTimeMax": 600,
+  "jailTimeMax": 1200,
   "locations": {
     "policeDepartments": [
       {
@@ -10,9 +10,9 @@
       },
       {
         "label": "Sandy Shores PD",
-        "x": 1853.11,
-        "y": 3690.12,
-        "z": 34.27
+        "x": 1844.1,  
+        "y": 3688.73,
+        "z": 34.33
       },
       {
         "label": "Paleto Bay PD",
